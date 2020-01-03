@@ -79,6 +79,7 @@ module.exports = {
 
     new webpack.ProvidePlugin({
       "React": "react",
+      "$": [resolve("src/util"), "domSelector"],
     }),
 
     new HtmlWebpackPlugin({

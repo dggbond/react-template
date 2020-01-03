@@ -18,4 +18,4 @@ window._global = {
   isWechatBrowser: /micromessenger/i.test(window.navigator.userAgent),
 }
 
-ReactDOM.render(<App name="app" />, document.getElementById("root"))
+ReactDOM.render(<App name="app" />, $("#root"))
