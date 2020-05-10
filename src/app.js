@@ -26,6 +26,12 @@ export default () => {
         <Route path="/me">
           <Me />
         </Route>
+        <Route path="/404">
+          <Me />
+        </Route>
+        <Route path="/*">
+          <div> 404 </div>
+        </Route>
       </Switch>
     </Router>
   )
