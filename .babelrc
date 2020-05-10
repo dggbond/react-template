@@ -9,6 +9,7 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "transform-react-jsx"
+    "transform-react-jsx",
+    "@babel/plugin-syntax-dynamic-import"
   ]
 }

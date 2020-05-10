@@ -34,6 +34,9 @@ devMiddlewareInstance.waitUntilValid(() => {
   console.log(`dev server is now listening at ${url}`)
 })
 
+// handle fallback for HTML5 history API
+app.use(require("connect-history-api-fallback")())
+
 app.use(devMiddlewareInstance)
 app.use(hotMiddlewareInstance)
 
