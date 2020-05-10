@@ -66,15 +66,7 @@ module.exports = {
   plugins: [
     new HappyPack({
       id: "js",
-      loaders: [
-        {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
-            plugins: ["transform-react-jsx"],
-          },
-        },
-      ],
+      loaders: [ "babel-loader" ],
     }),
 
     new webpack.ProvidePlugin({
