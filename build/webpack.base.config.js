@@ -80,9 +80,15 @@ module.exports = {
     }),
 
     // 拷贝静态文件夹，不用任何处理
-    new CopyWebpackPlugin([{
-      from: "static",
-      to: "static",
-    }]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: "static",
+          to: "static",
+        }
+      ],
+    }),
+
+    new webpack.ProgressPlugin(),
   ],
 }
