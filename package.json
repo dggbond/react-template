@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server",
+    "open": "node scripts/open",
     "build": "webpack --config build/webpack.prod.config",
     "browserslist": "browserslist"
   },

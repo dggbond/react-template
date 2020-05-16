@@ -1,7 +1,6 @@
 const path = require("path")
 const webpack = require("webpack")
 const express = require("express")
-const open = require("open")
 
 // middlewares
 const devMiddleware = require("webpack-dev-middleware")
@@ -24,13 +23,7 @@ const devMiddlewareInstance = devMiddleware(compiler, {
 const hotMiddlewareInstance = hotMiddleware(compiler)
 
 devMiddlewareInstance.waitUntilValid(() => {
-  const url = `http://localhost:${serverConfig.port}`
-
-  if(!process.argv.includes("-n")) {
-    open(url, { app: "google chrome" })
-  }
-
-  console.log(`dev server is now listening at ${url}`)
+  console.log(`server is listening on port ${serverConfig.port}`)
 })
 
 // handle fallback for HTML5 history API
