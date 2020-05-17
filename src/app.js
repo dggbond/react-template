@@ -9,7 +9,8 @@ import {
 import Home from "@/home"
 import Me from "@/me"
 
-export default () => {
+export default (props) => {
+  console.log(props)
   return (
     <Router>
       <div>
