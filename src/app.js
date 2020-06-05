@@ -9,8 +9,7 @@ import {
 import Home from "@/home"
 import Me from "@/me"
 
-export default (props) => {
-  console.log(props)
+const App = (props) => {
   return (
     <Router>
       <div>
@@ -38,3 +37,4 @@ export default (props) => {
   )
 }
 
+export default App

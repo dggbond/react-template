@@ -8,7 +8,8 @@
     "dev": "node build/dev-server",
     "open": "node scripts/open",
     "build": "webpack --config build/webpack.prod.config",
-    "browserslist": "browserslist"
+    "browserslist": "browserslist",
+    "lint": "eslint 'src/**/*.js'"
   },
   "dependencies": {
     "axios": "0.19.2",
@@ -31,6 +32,8 @@
     "copy-webpack-plugin": "^6.0.0",
     "core-js": "3",
     "css-loader": "^3.5.3",
+    "eslint": "7.1.0",
+    "eslint-plugin-react": "7.20.0",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
