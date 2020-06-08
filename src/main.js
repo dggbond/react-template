@@ -8,8 +8,8 @@ import * as util from "util"
 import displayError from "error"
 
 // css
-import "app.styl"
 import "normalize.css"
+import "global.css"
 
 window.axios = Axios
 window._displayError = displayError

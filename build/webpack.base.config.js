@@ -49,16 +49,7 @@ module.exports = {
 
       {
         test: /\.styl(us)?/,
-        use: [
-          "style-loader",
-          "css-loader",
-          {
-            loader: "stylus-loader",
-            options: {
-              import: [resolve("config/config.styl")],
-            },
-          },
-        ],
+        use: ["style-loader", "css-loader"],
       },
     ],
   },

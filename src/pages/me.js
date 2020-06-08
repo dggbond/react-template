@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 import { Button, Clock } from "comp/base"
 
-const Me = () => {
+const Me = (props) => {
   const [count, setCount] = useState(0)
 
   useEffect(() => {

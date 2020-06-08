@@ -23,7 +23,7 @@ Object.keys(entry).forEach(key => {
 module.exports = merge(webpackBaseConfig, {
   mode: "development",
 
-  devtool: "inline-source-map",
+  devtool: "eval",
 
   module: {
     rules: [
