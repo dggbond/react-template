@@ -11,9 +11,6 @@
     "build": "tiga build --esbuild"
   },
   "dependencies": {
-    "antd": "4.18.3",
-    "axios": "0.24.0",
-    "emotion": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router": "5.2.1",
