@@ -5,6 +5,8 @@ import { GlobalCtxProvider } from '~/context/global'
 
 import App from './App'
 
+console.log(__DEV__)
+
 ReactDOM.render(
   <BrowserRouter>
     <GlobalCtxProvider>
