@@ -30,10 +30,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@tilemoon/tiga@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tilemoon/tiga/-/tiga-0.0.2.tgz#7ef1121d16566a882d3f47522844b5b111940eb0"
-  integrity sha512-mgb85zuETSo2s3R5wxljqjdDgGz1jKmfeFv9v5N1kXZFTcv/Mw/o9UI2o2aoypGN7vnCFdWgi1ZUwvXWC/y31Q==
+"@tilemoon/tiga@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@tilemoon/tiga/-/tiga-0.1.0.tgz#2baa6fe56765324815dc884b832a7edf75ea6f47"
+  integrity sha512-xP1oDOKGibwmvda5bfLAUUmer3O40wp7ARjTRVH49/i6Ld/MhXCe5ItMSbELSyo5Uaoyr7w4cduXAN2BiJz7WQ==
   dependencies:
     "@types/react" "17.0.38"
     "@types/react-dom" "17.0.11"
@@ -1528,9 +1528,9 @@ loader-runner@^4.2.0:
   integrity sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
 
 loader-utils@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.2.tgz#d6e3b4fb81870721ae4e0868ab11dd638368c129"
-  integrity sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.4.tgz#8b5cb38b5c34a9a018ee1fc0e6a066d1dfcc528c"
+  integrity sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
