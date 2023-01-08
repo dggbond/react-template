@@ -30,10 +30,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@tilemoon/tiga@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tilemoon/tiga/-/tiga-0.0.2.tgz#7ef1121d16566a882d3f47522844b5b111940eb0"
-  integrity sha512-mgb85zuETSo2s3R5wxljqjdDgGz1jKmfeFv9v5N1kXZFTcv/Mw/o9UI2o2aoypGN7vnCFdWgi1ZUwvXWC/y31Q==
+"@tilemoon/tiga@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@tilemoon/tiga/-/tiga-0.1.0.tgz#2baa6fe56765324815dc884b832a7edf75ea6f47"
+  integrity sha512-xP1oDOKGibwmvda5bfLAUUmer3O40wp7ARjTRVH49/i6Ld/MhXCe5ItMSbELSyo5Uaoyr7w4cduXAN2BiJz7WQ==
   dependencies:
     "@types/react" "17.0.38"
     "@types/react-dom" "17.0.11"
@@ -1404,9 +1404,9 @@ json-schema-traverse@^1.0.0:
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
 json5@^2.1.2, json5@^2.2.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
-  integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonfile@^6.0.1:
   version "6.1.0"
